@@ -10,10 +10,13 @@ function i18n.get(name,langname)
     if not langname then
         langname=syslang
     end
-    if not fs.exists("/usr/misc/lang/"..name.."/"..langname..".lang") then
-        return nil
-    end
     local lang={}
+    if fs.exists("/usr/misc/lang/"..name.."/en_US.lang") and langname~="en_US" then
+        setmetatable(lang,{__index=i18n.get(name,"en_US")})
+    end
+    if not fs.exists("/usr/misc/lang/"..name.."/"..langname..".lang") then
+        return lang
+    end
     for line in io.lines("/usr/misc/lang/"..name.."/"..langname..".lang") do
         if line:match(".+=.+") then
             local key,value=line:match("(.+)=(.+)")
@@ -24,11 +27,16 @@ function i18n.get(name,langname)
     return setmetatable({},{__index=lang})
 end
 
+function i18n.clearCache()
+    cache={}
+end
+
 function i18n.setLanguage(lang)
     if not fs.exists("/usr/misc/lang/System/"..lang..".lang") then
         return false
     end
     syslang=lang
+    i18n.clearCache()
     return true
 end
 

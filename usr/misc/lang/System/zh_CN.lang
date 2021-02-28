@@ -170,14 +170,14 @@ rc.rcfailedtostart=rc 无法启动: %s
 
 redstone.bundledredstonenotavailable=bundled 红石 not available\n
 redstone.freq=freq: %s \n
-redstone.in=in: %s \n
+redstone.in=输入: %s \n
 redstone.invalidcolor=无效的颜色\n
 redstone.invalidfreq=无效的 frequency\n
 redstone.invalidside=无效的 side\n
-redstone.out=out: %s \n
+redstone.out=输出: %s \n
 redstone.usage=用法:\n  redstone <side> [<值>]\n
 redstone.usage2=  redstone -b <side> <颜色> [<值>]\n
-redstone.usage3=  redstone -w [<value>]\n  redstone -f [<frequency>]\n
+redstone.usage3=  redstone -w [<值>]\n  redstone -f [<frequency>]\n
 redstone.wirelessredstonenotavailable=wireless 红石 not available\n
 
 resolution.invalidwidthorheight=无效宽或高\n
@@ -188,7 +188,7 @@ rm.commandline=\n\n  -f          ignore nonexistent files and arguments, never p
 rm.descendintodirectory=rm: descend into directory `%s'? 
 rm.directorynotempty=目录非空\n
 rm.failedtoberemoved=: 无法被移除\n
-rm.isadirectory=是一个目录
+rm.isadirectory=%s是一个目录
 rm.removearguments=rm: 移除 %i 参数? 
 rm.removedirectory=rm: 移除目录 `%s' ? 
 rm.removeregularfile=rm: 移除常规文件 `%s' ? 
@@ -201,11 +201,11 @@ rmdir.missingoperand=rmdir: missing operand\n
 rmdir.notadirectory=rmdir: 无法移除 %s: 不是一个目录\n
 rmdir.pathdoesnotexist=rmdir: 无法移除 %s: 目录不存在\n
 rmdir.removeingdirectory=rmdir: 移除了目录 %s
-rmdir.usage=用法: rmdir [选项]... 目录...\nRemoves the DIRECTORY(ies), if they are empty.\n\n  -q, --ignore-fail-on-non-empty\n                  ignore failures due solely to non-empty directories\n  -p, --parents   remove DIRECTORY and its empty ancestors\n                  例如 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'\n  -v, --verbose   详细输出\n      --help      你现在在看的东西
+rmdir.usage=用法: rmdir [选项]... 目录...\n移除空目录.\n\n  -q, --ignore-fail-on-non-empty\n                  ignore failures due solely to non-empty directories\n  -p, --parents   remove DIRECTORY and its empty ancestors\n                  例如 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'\n  -v, --verbose   详细输出\n      --help      你现在在看的东西
 
 sleep.bug=bug parsing parameter: %s
 sleep.invalidoption=sleep: 无效的选项 -- '%s'\n尝试 'sleep --help' 以获取更多信息.
-sleep.usage=用法: sleep 数字[SUFFIX]...\nPause for NUMBER seconds.  SUFFIX may be 's' for 秒(默认),\n'm' for 分钟, 'h' for 小时 or 'd' for 天.  Unlike most implementations\nthat require NUMBER be an integer, here NUMBER may be an arbitrary floating\npoint number.  Given two or more arguments, pause for the amount of time\nspecified by the sum of their values.
+sleep.usage=用法: sleep 数字[后缀]...\n暂停x秒.  后缀可以是 's': 秒(默认),\n'm': 分钟, 'h': 小时 或 'd': 天.  Unlike most implementations\nthat require NUMBER be an integer, here NUMBER may be an arbitrary floating\npoint number.  如果有2个或更多参数, 暂停的时间是它们相加的和.
 
 source.couldnotsourcebecause=无法source %s 因为: %s\n
 source.specifyasinglefiletosource=指定单个文件来source\n

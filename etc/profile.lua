@@ -38,6 +38,18 @@ os.setenv("LS_COLORS", "di=0;36:fi=0:ln=0;33:*.lua=0;32")
 
 shell.setWorkingDirectory(os.getenv("HOME"))
 
+if fs.exists("/etc/locale.conf") then
+  f=fs.open("/etc/locale.conf")
+  if not require("i18n").setLanguage(f:read(math.huge)) then
+    io.stderr:write("Could't set language.")
+  end
+  f:close()
+elseif not fs.get("home").isReadOnly() then
+  f=fs.open("/etc/locale.conf","w")
+  f:write("en_US")
+  f:close()
+end
+
 local home_shrc = shell.resolve(".shrc")
 if fs.exists(home_shrc) then
   loadfile(shell.resolve("source", "lua"))(home_shrc)

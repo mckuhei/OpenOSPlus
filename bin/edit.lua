@@ -27,7 +27,7 @@ end
 local readonly = options.r or fs.get(filename) == nil or fs.get(filename).isReadOnly()
 
 if fs.isDirectory(filename) then
-  io.stderr:write(i18n['edit.fileisadirectory'])
+  io.stderr:write(string.format(i18n['edit.fileisadirectory'], filename))
   return 1
 elseif not fs.exists(filename) and readonly then
   io.stderr:write(i18n['filesystemisreadonly'])
