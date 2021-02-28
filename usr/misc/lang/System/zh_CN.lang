@@ -1,0 +1,246 @@
+available=可用
+filesystem=文件系统
+filealreadyexists=文件已存在
+isreadonly=只读
+nosuchfile=没有那个文件或目录
+rebooting=重启...
+removed=已移除
+used=已用
+yes=是
+requiresinternetcard=这个程序需要Internet网卡来运行.\n
+requiresredstone=这个程序需要红石卡或红石I/O方块来运行.\n
+success=完成.
+failed=失败.
+running=运行中...
+permissiondenied=权限不足
+unknownerror=未知错误
+cannotaccess=不能访问
+failedopeningfileforwriting=无法写入文件: %s \n
+failedopeningfileforreading=无法读取文件: %s \n
+downloading=下载中...
+httprequestfailed=HTTP请求失败: %s \n
+saveddatato=将数据保存到 %s \n
+notfound=未找到
+notadirectory=不是目录: %s\n
+filesystemisreadonly=只读文件系统\n
+file=文件
+lowmemory=低内存, 回收垃圾
+
+
+jan=一月
+feb=二月
+mar=三月
+apr=四月
+may=五月
+jun=六月
+jul=七月
+aug=八月
+sep=九月
+oct=十月
+nov=十一月
+dec=十二月
+
+
+alias.invalid=%s `%s': 无效的别名\n
+alias.usage=用法: alias: [name[=value] ... ]
+
+cat.isdirectory=cat %s: 是目录
+cat.missing.stdin=缺少标准输入
+
+cd.home=cd: HOME not set\n
+cd.oldpwd=cd: OLDPWD not set\n
+cd.usage=用法: cd [目录]\n了解更多选项, 运行: man cd
+
+cp.usage=用法: cp [选项] <从...> <到...>\n -i: prompt before overwrite (overrides -n option).\n -n: 不覆盖一个已经存在的文件.\n -r: 复制目录.\n -u: copy only when the SOURCE file differs from the destination\n     file or when the destination file is missing.\n -P: preserve attributes, 例如 符号链接.\n -v: 详细输出.\n -x: stay on original source file system.\n --skip=P: skip files matching lua regex P\n
+
+df.mountedon=挂载在
+df.unlimited=无限
+df.use%=已用%
+
+dmesg.pcte=按 'Ctrl-C' 退出\n
+
+du.invalid=du: 无效的选项 -- '%s'\n
+du.tryhelp=\n尝试 'du --help' 以获取更多信息.
+du.usage=\n用法: du [选项]... [文件]...\nSummarize disk usage of each FILE, recursively for directories.\n\n  -h, --human-readable  print sizes in 人类可读格式(例如, 1K 234M 2G)\n  -s, --summarize       display only a total for each argument\n      --help     你现在在看的东西\n      --version  output version information and exit
+du.verison=\ndu (OpenOS bin) 1.0\nWritten by payonel, patterned after GNU 核心工具 du
+
+echo.usage=`echo` writes the provided string(s) to the standard output.\n  -n      do not output the trialing newline\n  -e      enable interpretation of backslash escapes\n  --help  你现在在看的东西
+
+edit.fileisadirectory=是一个目录\n
+edit.status="%s" %dL,%dC
+edit.status.newWritten="%s" [新] %dL,%dC 已写入
+edit.status.newfile="%s" [新]
+edit.status.readonly="%s" [只读] %dL,%dC
+edit.status.written="%s" %dL,%dC 已写入
+edit.usage=用法: edit <文件名>
+
+find.cannotdefinebothinameandname=find 无法同时定义INAME和名称\n
+find.missingarg=find: 缺少参数 to `name'\n
+find.unknownarg=find: 未知参数 to type: %s\n
+find.usage=用法: find [目录] [--type=[dfs]] [--[i]name=EXPR]\n  --path  if not specified, path is assumed to be current working directory\n  --type  returns results of a given type, d:directory, f:file, and s:symlinks\n  --name  specify the file name pattern. Use quote to include *. iname is \n          case insensitive\n  --help  你现在你现在在看的东西
+
+flash.adycrtearitpon=完成! 你现在可以拔下此EEPROM, 然后重新插入上一个EEPROM.\n
+flash.alldonethelabelis=完成!\n标签是  
+flash.aysywto=确定要覆盖 %s ?\n
+flash.beginningtoflasheeprom=开始烧录 EEPROM.\n
+flash.enlftelibtltlu=输入这个EEPROM的新标签. 留空不更改.\n
+flash.flashingeeprom=烧录 EEPROM %s
+flash.iteywltf=插入你想烧录的EEPROM.\n
+flash.pdnpdorycdto=在此过程中, 请勿关闭电源或重新启动计算机!\n
+flash.readingeeprom=正在读取 EEPROM 
+flash.setlabelto=设置标签为 '%s
+flash.typeytoconfirm=输入 `y` 来确认.\n
+flash.usage=用法: flash [-qlr] [<bios.lua>] [标签]\n q: 安静模式, 直接烧录.\n l: 显示已安装的EEPROM的内容.\n r: 将已安装的EEPROM内容保存到文件.\n
+flash.whenreadytoflash=准备好烧录到EEPROM时, 输入 `y` 来继续.\n
+
+free.freememory=总共%12d\n已用%13d\n可用%13d\n
+
+grep.failedtoreadfrom=failed to read from %s: %s
+grep.usage=用法: grep [选项]... PATTERN [文件]...\n示例: grep -i "hello world" menu.lua main.lua\n了解更多信息, 运行: man grep\n
+
+hostname.notset=Hostname not set\n
+
+install.bootaddresssetto=启动地址已设置为 %s
+install.complete=安装完成!
+install.failedtoloadinstall=无法加载安装: %s \n
+install.reboot?=重启? [Y/n] 
+install.rebootingnow=\n重启!\n
+install.returningtoshell=返回到shell.\n
+
+label.nolabel=无标签\n
+label.usage=用法: label [-a] <设备> [<标签>]\n -a  通过标签或地址而不是通过路径指定设备.\n
+
+less.end=(结束)
+less.usage=用法: %s <文件名>\n  -不带参数将使用标准输入\n
+
+ln.nosuchfile=ln: 无法访问 '%s': 没有那个文件或目录\n
+ln.usage=用法: ln <目标> [<名字>]\n
+
+ls.list=%s \n如果你的电脑内存不足，请使用`list`命令\n
+
+lshw.address=地址
+lshw.capacity=Capacity
+lshw.class=Class
+lshw.clock=Clock
+lshw.description=Description
+lshw.product=Product
+lshw.vendor=Vendor
+lshw.width=Width
+
+man.nomanualentryfor=没有 %s 的帮助文件\n
+man.usage=用法: man <topic>\nWhere `topic` will usually be the name of a program or library.\n
+
+mkdir.alreadyexists=那个目录或文件已存在
+mkdir.cannotcreate=mkdir: 无法创建目录 '%s': %s \n
+mkdir.unknown=未知 reason
+mkdir.usage=用法: mkdir <目录名1> [<目录名2> [...]]\n
+
+mktmp.cctfodaidne=无法在以下位置创建tmp文件或目录 %s, 因为文件或目录不存在\n
+mktmp.invalidoption=无效的选项: %s \n
+mktmp.missingtools=mktmp的依赖丢失
+mktmp.usage=用法: mktmp [选项] [路径]\nCreate a new file with a random name in $TMPDIR or PATH argument if given\n  -d              create a directory instead of a file\n  -v, --verbose   print result to stdout, even if no tty\n  -q, --quiet     do not print results to stdout, even if tty (verbose overrides)\n      --help      你现在在看的东西
+
+mount.failedtomount=无法挂载: %s \n
+mount.info=%-8s 在 %-10s %s %s\n
+mount.missingarg=缺少参数\n
+mount.usage=用法: mount [选项] [设备] [路径]\n  If no args are given, all current mount points are printed.\n  <Options> Note that multiple options can be used together\n  -r, --ro    Mount the filesystem read only\n      --bind  Create a mount bind point, folder to folder\n  <Args>\n  device      Specify filesystem device by one of:\n              a. label\n              b. address (can be abbreviated)\n              c. folder path (requires --bind)\n  path        Target folder path to mount to\n\n查看 `man mount` 了解更多信息\n
+mount.wrongnumberofarg=错误的参数数量: %s \n
+
+mv.usage=用法: mv [选项] <从...> <到...>\n  -f         overwrite without prompt\n  -i         prompt before overwriting\n             unless -f\n  -v         verbose\n  -n         不覆盖一个已经存在的文件\n  --skip=P   ignore paths matching lua regex P\n  -h, --你现在在看的东西\n
+
+pastebin.downloading=从 pastebin.com 下载... 
+pastebin.failedloadingconfig=无法加载配置: %s
+pastebin.rpgtda=运行 "pastebin get %s" 在任何地方下载.
+pastebin.uploadedas=已上传: %s \n
+pastebin.usage=用法s:\npastebin put [-f] <文件>\npastebin get [-f] <ID> <文件>\npastebin run [-f] <ID> [<参数...>]\n -f: 覆盖已存在的文件.\n -k: 保持行尾不变(否则会将\n     Windows行尾转换到Unix).
+
+primary.help=注意, 地址可以缩写.\n
+primary.nocomponentwiththisaddress=没有这种地址的组件\n
+primary.nocomponentwiththistype=没有这种类型的组件\n
+primary.usage=用法: primary <类型> [<地址>]\n
+
+pwd.error=检索当前目录时出错: %s
+
+rc.alreadyenabled=服务已经开启
+rc.commandnotfound=命令'%s'在守护进程'%s' 未找到
+rc.commandsforservice=服务 %s 的命令\n
+rc.failedtoload=%s 无法加载: %s
+rc.failedtostart=%s 无法启动: %s
+rc.rcfailedtostart=rc 无法启动: %s
+
+redstone.bundledredstonenotavailable=bundled 红石 not available\n
+redstone.freq=freq: %s \n
+redstone.in=in: %s \n
+redstone.invalidcolor=无效的颜色\n
+redstone.invalidfreq=无效的 frequency\n
+redstone.invalidside=无效的 side\n
+redstone.out=out: %s \n
+redstone.usage=用法:\n  redstone <side> [<值>]\n
+redstone.usage2=  redstone -b <side> <颜色> [<值>]\n
+redstone.usage3=  redstone -w [<value>]\n  redstone -f [<frequency>]\n
+redstone.wirelessredstonenotavailable=wireless 红石 not available\n
+
+resolution.invalidwidthorheight=无效宽或高\n
+resolution.usage=用法: resolution [<宽> <高>]
+
+rm.cannotremove=rm: 无法移除 `%s': 
+rm.commandline=\n\n  -f          ignore nonexistent files and arguments, never prompt\n  -r          移除目录\n  -v          详细输出\n      --help  你现在在看的东西\n\n有关完整的文档和更多选项, 运行: man rm
+rm.descendintodirectory=rm: descend into directory `%s'? 
+rm.directorynotempty=目录非空\n
+rm.failedtoberemoved=: 无法被移除\n
+rm.isadirectory=是一个目录
+rm.removearguments=rm: 移除 %i 参数? 
+rm.removedirectory=rm: 移除目录 `%s' ? 
+rm.removeregularfile=rm: 移除常规文件 `%s' ? 
+rm.removesymboliclink=rm: 移除符号链接 `%s' ? 
+rm.usage=用法: rm [选项] <文件名1> [<文件名2> [...]]
+
+rmdir.directorynotempty=rmdir: 无法移除 %s: 目录非空\n
+rmdir.invaild=rmdir: 无法移除目录 .: 无效的参数\n
+rmdir.missingoperand=rmdir: missing operand\n
+rmdir.notadirectory=rmdir: 无法移除 %s: 不是一个目录\n
+rmdir.pathdoesnotexist=rmdir: 无法移除 %s: 目录不存在\n
+rmdir.removeingdirectory=rmdir: 移除了目录 %s
+rmdir.usage=用法: rmdir [选项]... 目录...\nRemoves the DIRECTORY(ies), if they are empty.\n\n  -q, --ignore-fail-on-non-empty\n                  ignore failures due solely to non-empty directories\n  -p, --parents   remove DIRECTORY and its empty ancestors\n                  例如 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'\n  -v, --verbose   详细输出\n      --help      你现在在看的东西
+
+sleep.bug=bug parsing parameter: %s
+sleep.invalidoption=sleep: 无效的选项 -- '%s'\n尝试 'sleep --help' 以获取更多信息.
+sleep.usage=用法: sleep 数字[SUFFIX]...\nPause for NUMBER seconds.  SUFFIX may be 's' for 秒(默认),\n'm' for 分钟, 'h' for 小时 or 'd' for 天.  Unlike most implementations\nthat require NUMBER be an integer, here NUMBER may be an arbitrary floating\npoint number.  Given two or more arguments, pause for the amount of time\nspecified by the sum of their values.
+
+source.couldnotsourcebecause=无法source %s 因为: %s\n
+source.specifyasinglefiletosource=指定单个文件来source\n
+
+time.cpu=cpu %5dm%.3fs
+time.real=real%5dm%.3fs
+
+touch.cannottouch=touch: 无法创建 `%s': %s\n
+touch.ignored=`%s' 已忽略: 不支持目录\n
+touch.missingoperand=touch: missing operand\n
+touch.usage=用法: touch [选项]]... 文件...\nUpdate the modification times of each FILE to the current time.\nA FILE argument that does not exist is created empty, unless -c is supplied.\n\n  -c, --no-create    不创建任何文件\n      --help         你现在在看的东西
+
+tree.ilmbgt0=无效的 level, 必须大于0
+tree.ivfowsbaaon=无效的 value for --color=WHEN option; WHEN should be auto, always or never
+tree.usage=用法: tree [选项]... [文件]...\n  -a, --all             do not ignore entries starting with .\n      --full-time       with -l, print time in full iso format\n  -h, --human-readable  with -l, print human readable sizes\n      --si              likewise, but use powers of 1000 not 1024\n      --level=LEVEL     descend only LEVEL directories deep\n      --color=WHEN      WHEN can be\n                        auto - colorize output only if writing to a tty,\n                        always - always colorize output,\n                        never - never colorize output; (default: auto)\n  -l                    use a long listing format\n  -f                    print the full path prefix for each file\n  -i                    do not print indentation lines\n  -p                    append "/" indicator to directories\n  -Q, --quote           quote filenames with double quotes\n  -r, --reverse         reverse order while sorting\n  -S                    根据文件大写排序\n  -t                    sort by modification type, newest first\n  -X                    sort alphabetically by entry extension\n  -C                    do not count files and directories\n  -R                    count root directories like other files\n      --help            你现在在看的东西
+
+umount.notamountpoint=不是一个挂载点\n
+umount.nothingtoumounthere=这里啥也没有\n
+umount.usage=用法: umount [-a] <挂载点>\n -a  Remove any mounts by file system label or address instead of by path. Note that the address may be abbreviated.\n
+
+unalias.usage=用法: unalias <名字>...\n
+
+unset.usage=用法: unset <varname>[ <varname2> [...]]\n
+
+useradd.usage=用法: useradd <名字>\n
+
+userdel.nosuchuser=没有那个用户\n
+userdel.usage=用法: userdel <名字>\n
+
+wget.cnifpso=无法推断文件名，请指定一个
+wget.missingtargetfilename=缺少目标文件名
+wget.usage=用法: wget [-fq] <URL> [<文件名>]\n -f: 覆盖已存在的文件.\n -q: 安静模式 - 不显示状态信息.\n -Q: 超级安静模式 - 不显示错误信息.
+
+which.aliasedto=: aliased to 
+which.usage=用法: which <程序名>\n
+
+yes.info=Inspired by functionality of yes 来自 GNU 核心工具\n
+yes.usage=用法: yes [字符串]...\nOR:    yes [-V/h]\n\nyes prints the command line arguments, or 'y', 直到被杀死.\n\n选项:\n	-V, --version	显示版本\n	-h, --help  	你现在在看的东西\n

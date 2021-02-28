@@ -1,0 +1,245 @@
+available=Available
+filesystem=Filesystem
+filealreadyexists=file already exists
+isreadonly=Is read only
+nosuchfile=No such file or directory
+rebooting=Rebooting...
+removed=removed
+used=Used
+yes=yes
+requiresinternetcard=This program requires an internet card to run.\n
+requiresredstone=This program requires a redstone card or redstone I/O block.\n
+success=success.
+failed=failed.
+running=Running...
+permissiondenied=permission denied
+unknownerror=unknown error
+cannotaccess=cannot access
+failedopeningfileforwriting=Failed opening file for writing: %s \n
+failedopeningfileforreading=Failed opening file for reading: %s \n
+downloading=Downloading...
+httprequestfailed=HTTP request failed: %s \n
+saveddatato=Saved data to %s \n
+notfound=not found
+notadirectory=Not a directory: %s\n
+filesystemisreadonly=file system is read only\n
+file=file
+lowmemory=Low memory, collecting garbage
+
+
+jan=January
+feb=February
+mar=March
+apr=April
+may=May
+jun=June
+jul=July
+aug=August
+sep=September
+oct=October
+nov=November
+dec=December
+
+
+alias.invalid=%s `%s': invalid alias name\n
+alias.usage=Usage: alias: [name[=value] ... ]
+
+cat.isdirectory=cat %s: Is a directory
+cat.missing.stdin=missing stdin
+
+cd.home=cd: HOME not set\n
+cd.oldpwd=cd: OLDPWD not set\n
+cd.usage=Usage cd [dir]\nFor more options, run: man cd
+cp.usage=Usage: cp [OPTIONS] <from...> <to>\n -i: prompt before overwrite (overrides -n option).\n -n: do not overwrite an existing file.\n -r: copy directories recursively.\n -u: copy only when the SOURCE file differs from the destination\n     file or when the destination file is missing.\n -P: preserve attributes, e.g. symbolic links.\n -v: verbose output.\n -x: stay on original source file system.\n --skip=P: skip files matching lua regex P\n
+
+df.mountedon=Mounted on
+df.unlimited=unlimited
+df.use%=Use%
+
+dmesg.pcte=Press 'Ctrl-C' to exit\n
+
+du.invalid=du: invalid option -- '%s'\n
+du.tryhelp=\nTry 'du --help' for more information.
+du.usage=\nUsage: du [OPTION]... [FILE]...\nSummarize disk usage of each FILE, recursively for directories.\n\n  -h, --human-readable  print sizes in human readable format (e.g., 1K 234M 2G)\n  -s, --summarize       display only a total for each argument\n      --help     display this help and exit\n      --version  output version information and exit
+du.verison=\ndu (OpenOS bin) 1.0\nWritten by payonel, patterned after GNU coreutils du
+
+echo.usage=`echo` writes the provided string(s) to the standard output.\n  -n      do not output the trialing newline\n  -e      enable interpretation of backslash escapes\n  --help  display this help and exit
+
+edit.fileisadirectory=file is a directory\n
+edit.status="%s" %dL,%dC
+edit.status.newWritten="%s" [New] %dL,%dC written
+edit.status.newfile="%s" [New File]
+edit.status.readonly="%s" [readonly] %dL,%dC
+edit.status.written="%s" %dL,%dC written
+edit.usage=Usage: edit <filename>
+
+find.cannotdefinebothinameandname=find cannot define both iname and name\n
+find.missingarg=find: missing argument to `name'\n
+find.unknownarg=find: Unknown argument to type: %s\n
+find.usage=Usage: find [path] [--type=[dfs]] [--[i]name=EXPR]\n  --path  if not specified, path is assumed to be current working directory\n  --type  returns results of a given type, d:directory, f:file, and s:symlinks\n  --name  specify the file name pattern. Use quote to include *. iname is \n          case insensitive\n  --help  display this help and exit
+
+flash.adycrtearitpon=All done! You can remove the EEPROM and re-insert the previous one now.\n
+flash.alldonethelabelis=All done!\nThe label is 
+flash.aysywto=Are you sure you want to overwrite %s ?\n
+flash.beginningtoflasheeprom=Beginning to flash EEPROM.\n
+flash.enlftelibtltlu=Enter new label for this EEPROM. Leave input blank to leave the label unchanged.\n
+flash.flashingeeprom=Flashing EEPROM %s
+flash.iteywltf=Insert the EEPROM you would like to flash.\n
+flash.pdnpdorycdto=Please do NOT power down or restart your computer during this operation!\n
+flash.readingeeprom=Reading EEPROM 
+flash.setlabelto=Set label to '%s
+flash.typeytoconfirm=Type `y` to confirm.\n
+flash.usage=Usage: flash [-qlr] [<bios.lua>] [label]\n q: quiet mode, don't ask questions.\n l: print current contents of installed EEPROM.\n r: save the current contents of installed EEPROM to file.\n
+flash.whenreadytoflash=When ready to write, type `y` to confirm.\n
+
+free.freememory=Total%12d\nUsed%13d\nFree%13d\n
+
+grep.failedtoreadfrom=failed to read from %s: %s
+grep.usage=Usage: grep [OPTION]... PATTERN [FILE]...\nExample: grep -i "hello world" menu.lua main.lua\nfor more information, run: man grep\n
+
+hostname.notset=Hostname not set\n
+
+install.bootaddresssetto.=Boot address set to %s
+install.complete=Installation complete!
+install.failedtoloadinstall=failed to load install: %s \n
+install.reboot?=Reboot now? [Y/n] 
+install.rebootingnow=\nRebooting now!\n
+install.returningtoshell=Returning to shell.\n
+
+label.nolabel=no label\n
+label.usage=Usage: label [-a] <device> [<label>]\n -a  Device is specified via label or address instead of by path.\n
+
+less.end=(END)
+less.usage=Usage: %s <filename>\n- or no args reads stdin\n
+
+ln.nosuchfile=ln: failed to access '%s': No such file or directory\n
+ln.usage=Usage: ln <target> [<name>]\n
+
+ls.list=%s \nFor low memory systems, try using `list` instead\n
+
+lshw.address=Address
+lshw.capacity=Capacity
+lshw.class=Class
+lshw.clock=Clock
+lshw.description=Description
+lshw.product=Product
+lshw.vendor=Vendor
+lshw.width=Width
+
+man.nomanualentryfor=No manual entry for %s \n
+man.usage=Usage: man <topic>\nWhere `topic` will usually be the name of a program or library.\n
+
+mkdir.alreadyexists=file or folder with that name already exists
+mkdir.cannotcreate=mkdir: cannot create directory '%s': %s \n
+mkdir.unknown=unknown reason
+mkdir.usage=Usage: mkdir <dirname1> [<dirname2> [...]]\n
+
+mktmp.cctfodaidne=cannot create tmp file or directory at %s, it does not exist\n
+mktmp.invalidoption=invalid option: %s \n
+mktmp.missingtools=missing tools for mktmp
+mktmp.usage=Usage: mktmp [OPTION] [PATH]\nCreate a new file with a random name in $TMPDIR or PATH argument if given\n  -d              create a directory instead of a file\n  -v, --verbose   print result to stdout, even if no tty\n  -q, --quiet     do not print results to stdout, even if tty (verbose overrides)\n      --help      print this help message
+
+mount.failedtomount=Failed to mount: %s \n
+mount.info=%-8s on %-10s %s %s\n
+mount.missingarg=Missing argument\n
+mount.usage=Usage: mount [OPTIONS] [device] [path]")\n  If no args are given, all current mount points are printed.\n  <Options> Note that multiple options can be used together\n  -r, --ro    Mount the filesystem read only\n      --bind  Create a mount bind point, folder to folder\n  <Args>\n  device      Specify filesystem device by one of:\n              a. label\n              b. address (can be abbreviated)\n              c. folder path (requires --bind)\n  path        Target folder path to mount to\n\nSee `man mount` for more details\n
+mount.wrongnumberofarg=wrong number of arguments: %s \n
+
+mv.usage=Usage: mv [OPTIONS] <from> <to>\n  -f         overwrite without prompt\n  -i         prompt before overwriting\n             unless -f\n  -v         verbose\n  -n         do not overwrite an existing file\n  --skip=P   ignore paths matching lua regex P\n  -h, --help show this help\n
+
+pastebin.downloading=Downloading from pastebin.com... 
+pastebin.failedloadingconfig=Failed loading config: %s
+pastebin.rpgtda=Run "pastebin get %s" to download anywhere.
+pastebin.uploadedas=Uploaded as %s \n
+pastebin.usage=Usages:\npastebin put [-f] <file>\npastebin get [-f] <id> <file>\npastebin run [-f] <id> [<arguments...>]\n -f: Force overwriting existing files.\n -k: keep line endings as-is (will convert\n     Windows line endings to Unix otherwise).
+
+primary.help=Note that the address may be abbreviated.\n
+primary.nocomponentwiththisaddress=no component with this address\n
+primary.nocomponentwiththistype=no component with this type\n
+primary.usage=Usage: primary <type> [<address>]\n
+
+pwd.error=error retrieving current directory: %s
+
+rc.alreadyenabled=Service already enabled
+rc.commandnotfound=Command '%s' not found in daemon '%s'
+rc.commandsforservice=Commands for service %s \n
+rc.failedtoload=%s failed to load: %s
+rc.failedtostart=%s failed to start: %s
+rc.rcfailedtostart=rc failed to start: %s
+
+redstone.bundledredstonenotavailable=bundled redstone not available\n
+redstone.freq=freq: %s \n
+redstone.in=in: %s \n
+redstone.invalidcolor=invalid color\n
+redstone.invalidfreq=invalid frequency\n
+redstone.invalidside=invalid side\n
+redstone.out=out: %s \n
+redstone.usage=Usage:\n  redstone <side> [<value>]\n
+redstone.usage2=  redstone -b <side> <color> [<value>]\n
+redstone.usage3=  redstone -w [<value>]\n  redstone -f [<frequency>]\n
+redstone.wirelessredstonenotavailable=wireless redstone not available\n
+
+resolution.invalidwidthorheight=invalid width or height\n
+resolution.usage=Usage: resolution [<width> <height>]
+
+rm.cannotremove=rm: cannot remove `%s': 
+rm.commandline=\n\n  -f          ignore nonexistent files and arguments, never prompt\n  -r          remove directories and their contents recursively\n  -v          explain what is being done\n      --help  display this help and exit\n\nFor complete documentation and more options, run: man rm
+rm.descendintodirectory=rm: descend into directory `%s'? 
+rm.directorynotempty=Directory not empty\n
+rm.failedtoberemoved=: failed to be removed\n
+rm.isadirectory=Is a directory
+rm.removearguments=rm: remove %i arguments? 
+rm.removedirectory=rm: remove directory `%s' ? 
+rm.removeregularfile=rm: remove regular file `%s' ? 
+rm.removesymboliclink=rm: remove symbolic link `%s' ? 
+rm.usage=Usage: rm [options] <filename1> [<filename2> [...]]
+
+rmdir.directorynotempty=rmdir: failed to remove %s: Directory not empty\n
+rmdir.invaild=rmdir: failed to remove directory .: Invalid argument\n
+rmdir.missingoperand=rmdir: missing operand\n
+rmdir.notadirectory=rmdir: cannot remove %s: not a directory\n
+rmdir.pathdoesnotexist=rmdir: cannot remove %s: path does not exist\n
+rmdir.removeingdirectory=rmdir: removing directory, %s
+rmdir.usage=Usage: rmdir [OPTION]... DIRECTORY...\nRemoves the DIRECTORY(ies), if they are empty.\n\n  -q, --ignore-fail-on-non-empty\n                  ignore failures due solely to non-empty directories\n  -p, --parents   remove DIRECTORY and its empty ancestors\n                  e.g. 'rmdir -p a/b/c' is similar to 'rmdir a/b/c a/b a'\n  -v, --verbose   output a diagnostic for every directory processed\n      --help      display this help and exit
+
+sleep.bug=bug parsing parameter: %s
+sleep.invalidoption=sleep: invalid option -- '%s'\nTry 'sleep --help' for more information.
+sleep.usage=Usage: sleep NUMBER[SUFFIX]...\nPause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),\n'm' for minutes, 'h' for hours or 'd' for days.  Unlike most implementations\nthat require NUMBER be an integer, here NUMBER may be an arbitrary floating\npoint number.  Given two or more arguments, pause for the amount of time\nspecified by the sum of their values.
+
+source.couldnotsourcebecause=could not source %s because: %s\n
+source.specifyasinglefiletosource=specify a single file to source\n
+
+time.cpu=cpu %5dm%.3fs
+time.real=real%5dm%.3fs
+
+touch.cannottouch=touch: cannot touch `%s': %s\n
+touch.ignored=`%s' ignored: directories not supported\n
+touch.missingoperand=touch: missing operand\n
+touch.usage=Usage: touch [OPTION]... FILE...\nUpdate the modification times of each FILE to the current time.\nA FILE argument that does not exist is created empty, unless -c is supplied.\n\n  -c, --no-create    do not create any files\n      --help         display this help and exit
+
+tree.ilmbgt0=Invalid level, must be greater than 0
+tree.ivfowsbaaon=Invalid value for --color=WHEN option; WHEN should be auto, always or never
+tree.usage=Usage: tree [OPTION]... [FILE]...\n  -a, --all             do not ignore entries starting with .\n      --full-time       with -l, print time in full iso format\n  -h, --human-readable  with -l, print human readable sizes\n      --si              likewise, but use powers of 1000 not 1024\n      --level=LEVEL     descend only LEVEL directories deep\n      --color=WHEN      WHEN can be\n                        auto - colorize output only if writing to a tty,\n                        always - always colorize output,\n                        never - never colorize output; (default: auto)\n  -l                    use a long listing format\n  -f                    print the full path prefix for each file\n  -i                    do not print indentation lines\n  -p                    append "/" indicator to directories\n  -Q, --quote           quote filenames with double quotes\n  -r, --reverse         reverse order while sorting\n  -S                    sort by file size\n  -t                    sort by modification type, newest first\n  -X                    sort alphabetically by entry extension\n  -C                    do not count files and directories\n  -R                    count root directories like other files\n      --help            print this help and exit
+
+umount.notamountpoint=not a mount point\n
+umount.nothingtoumounthere=nothing to unmount here\n
+umount.usage=Usage: umount [-a] <mount>\n -a  Remove any mounts by file system label or address instead of by path. Note that the address may be abbreviated.\n
+
+unalias.usage=Usage: unalias <name>...\n
+
+unset.usage=Usage: unset <varname>[ <varname2> [...]]\n
+
+useradd.usage=Usage: useradd <name>\n
+
+userdel.nosuchuser=no such user\n
+userdel.usage=Usage: userdel <name>\n
+
+wget.cnifpso=could not infer filename, please specify one
+wget.missingtargetfilename=missing target filename
+wget.usage=Usage: wget [-fq] <url> [<filename>]\n -f: Force overwriting existing files.\n -q: Quiet mode - no status messages.\n -Q: Superquiet mode - no error messages.
+
+which.aliasedto=: aliased to 
+which.usage=Usage: which <program>\n
+
+yes.info=Inspired by functionality of yes from GNU coreutils\n
+yes.usage=Usage: yes [string]...\nOR:    yes [-V/h]\n\nyes prints the command line arguments, or 'y', until is killed.\n\nOptions:\n	-V, --version	Version\n	-h, --help  	This help\n
