@@ -9,10 +9,15 @@ if not component.isAvailable("internet") then
 end
 local stdout=io.stdout
 stdout:write("Welcome to OpenOS+ installer.\n")
-stdout:write("DO you want install now?[Y/N]")
+stdout:write("Do you want install now?[Y/N]")
 if string.lower(io.read())~="y" then
 	stdout:write("Install cancled.\n")
 	return
+end
+
+stdout:write("Are you live in China?[y/N]")
+if string.lower(io.read())=="y" then
+	cdn="https://mirror.opencomputers.ml:1337/openosplus"
 end
 
 local fs      =require("filesystem")
@@ -36,16 +41,18 @@ stdout:write("getting files.cfg\n")
 local needDownload={}
 for key,value in pairs(load("return "..download(cdn.."/files.cfg"))()) do
     fs.makeDirectory(key)
-    table.insert(needDownload,key.."/"..value)
+    for _,file in ipairs(value) do
+		table.insert(needDownload,key.."/"..file)
+	end
 end
 for i=1,#needDownload do
 	local path=needDownload[i]
-    local url=cnd..path
+    local url=cdn..path
 	stdout:write(url.." -> "..path.."\27[K\n")
     resX_=resX-16
     a=math.floor((i/#needDownload)*resX_,1)
     gpu.set(1,resY,"Installing... ["..string.rep("█",a)..string.rep(" ",(resX_)-a).."]")
-	f=fs.open(i,"w")
+	f=fs.open(path,"w")
 	f:write(download(i))
 	f:close()
 end
