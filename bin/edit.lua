@@ -683,7 +683,7 @@ do
     if readonly then
       format = i18n['edit.status.readonly']
     else
-      format = i18n['status']
+      format = i18n['edit.status']
     end
     setStatus(string.format(format, fs.name(filename), #buffer, chars))
   else
