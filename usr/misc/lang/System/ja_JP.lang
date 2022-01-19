@@ -1,0 +1,245 @@
+available=使用可能
+filesystem=ファイルシステム
+filealreadyexists=ファイルが既に存在しました
+isreadonly=読み取り専用
+nosuchfile=そのようなファイルまたはディクトリーがありません
+rebooting=再起動しています。
+removed=削除されました。
+used=使用済み
+yes=はい
+requiresinternetcard=このプログラムはインターネット カードが要求しています。\n
+requiresredstone=\nこのプログラムはレッドストーン カードまたはレッドストーン I/O ブロックが要求しています。\n
+success=完成。
+failed=失敗。
+running=実行中。
+permissiondenied=パーミッションが不足しています
+unknownerror=不明エラー
+cannotaccess=アクセスできません
+failedopeningfileforwriting=ファイルを書きため %s へのアクセスが拒否されました。\n
+failedopeningfileforreading=ファイルを読みため %s へのアクセスが拒否されました。\n
+downloading=ダウンロード中。
+httprequestfailed=HTTPリクエストが失敗\n
+saveddatato=%s にデータをセーブしました\n
+notfound=見つかりません
+notadirectory=ディクトリーではありません: %s\n
+filesystemisreadonly=ファイルシステムは読み取り専用です\n
+file=ファイル
+lowmemory=メモリーが不足しています。不要のリソースを収集しています。
+
+
+jan=一月
+feb=二月
+mar=三月
+apr=四月
+may=五月
+jun=六月
+jul=七月
+aug=八月
+sep=九月
+oct=十月
+nov=十一月
+dec=十二月
+
+
+alias.invalid=%s `%s': エイリアス名は無効です\n
+alias.usage=使用:alias [名[=エイリアス名] ...]
+
+cat.isdirectory=cat %s: ディクトリーです
+cat.missing.stdin=stdinが見つかりません
+
+cd.home=cd: HOMEが設定されていません\n
+cd.oldpwd=cd : OLDPWD が設定されていません\n
+cd.usage=使用:cd [ディクトリー]\nman cdを実行すると、もっと情報を入手できます。
+cp.usage=使用:cp [オプション] <何処から...> <目標>\n -i: 上書きの前に確認する（-n をオーバーライト）。\n -n: 既に存在するファイルを上書きしません 。\n -r: 再帰的にディクトリーをコピーする。\n -u: 目標ファイルとSOURCE ファイルが違うの場合、それで目標ファイルが\n    存在しないの場合だけコピーする。\n -P: 属性を保持します。例えばシンボリックリンク。\n -v: より詳細な出力。\n -x: 元のソースファイルシステムにとどまります。\n --skip=P: 正規表現Pでマッチするのファイルをスキップする。\n
+
+df.mountedon=マウント
+df.unlimited=無制限
+df.use%=使用済み%
+
+dmesg.pcte='Ctrl-C'で終了\n
+
+du.invalid=du: 無効オプション -- '%s'\n
+du.tryhelp=\n'du --help'でもっと情報を入手できます。
+du.usage=\n使用: du [オプション]... [ファイル]...\nディレクトリに対して再帰的に、各FILEのディスク使用量を確認します。\n\n  -h, --human-readable  より読みやすい方で出力する。 (例, 1K 234M 2G)\n  -s, --summarize       大体だけ出力する。\n      --help     このヘルプを出力そして終了\n      --version  バージョンを出力そして終了
+du.verison=\ndu (OpenOS bin) 1.0\npayonelによって書かれ、GNU coreutils duに倣ってパターン化されています
+
+echo.usage=`echo`で提供されたのストリングを標準出力に出力する。\n  -n      ニューラインを出力しない\n  -e      バックスラッシュエスケープ解釈を有効にする\n  --help  このヘルプを出力そして終了
+
+edit.fileisadirectory=ディクトリーです\n
+edit.status="%s" %dL,%dC
+edit.status.newWritten="%s" [新] %dL,%dC 上書き
+edit.status.newfile="%s" [新ファイル]
+edit.status.readonly="%s" [読み取り専用] %dL,%dC
+edit.status.written="%s" %dL,%dC 上書き
+edit.usage=使用: edit <ファイル>
+
+find.cannotdefinebothinameandname=findはinameとnameの両方を定義できません\n
+find.missingarg=find: `name'パラメーターがありません\n
+find.unknownarg=find: %s として不明な引数\n
+find.usage=使用: find [パス] [--type=[dfs]] [--[i]name=EXPR]\n  --path  指定されていませんの場合は、パスがデフォルトとして現在ディクトリーに設置されます。\n  --type  検索フィルタータイプを設定, d:ディクトリー, f:ファイル, そしてs:シンボリックリンク\n  --name  名前の一部を指定します。 引用符を使用して*を含める。 iname が\n          大文字小文字を区別しません。\n  --help  このヘルプを出力そして終了
+
+flash.adycrtearitpon=完成！ EEPROMを取り出し、そして前のEEPROMを再度挿入ことはできます。\n
+flash.alldonethelabelis=完成！\nラベルは 
+flash.aysywto=%s を上書きしてもよろしいですか？\n
+flash.beginningtoflasheeprom=EEPROM フラッシュプロセスが開始しています。\n
+flash.enlftelibtltlu=この EEPROM の新しいのラベルを入力してください。変更なしの場合は、レベル名を入力してず、Enterを入力してください。\n
+flash.flashingeeprom=EEPROM %s フラッシュ中
+flash.iteywltf=フラッシュしたいの EEPROM を挿入してください。\n
+flash.pdnpdorycdto=この操作をする時は電源を切らないでください。\n
+flash.readingeeprom=EEPROM リロード中
+flash.setlabelto=ラベルを '%s に設置する
+flash.typeytoconfirm=`y`を入力で確認する。\n
+flash.usage=使用: flash [-qlr] [<bios.lua>] [ラベル]\n q: 沈黙モードで開始する。\n l: 挿入されたEEPROMのコンテンツを表示する。\n r: 挿入された EEPROM のコンテンツをファイルにセーブする。\n
+flash.whenreadytoflash=上書きが準備完了の時に、`y`を入力してください。\n
+
+free.freememory=全部%12d\n使用済み%13d\n利用可能%13d\n
+
+grep.failedtoreadfrom=%s への読み取りに失敗しました。
+grep.usage=Usage: grep [オプション]... パターン [ファイル]...\n例えば: grep -i "hello world" menu.lua main.lua\n`man grep`でもっと情報を入手できます。\n
+
+hostname.notset=Hostname は設置されていません\n
+
+install.bootaddresssetto.=Boot address ブートアドレスが %s に設置されました
+install.complete=インストール完成！
+install.failedtoloadinstall=ロードインストール失敗: %s \n
+install.reboot?=再起動しますか？ [Y/n] 
+install.rebootingnow=\n再起動しています。\n
+install.returningtoshell=シェルに戻ります。\n
+
+label.nolabel=ラベルなし\n
+label.usage=使用: label [-a] <デバイス> [<ラベル>]\n -a  パスの代わりに、ラベルまたはアドレスを使用してデバイスを指定する。\n
+
+less.end=(END)
+less.usage=使用: %s <ファイル>\n- ファイルが指定されていませんの場合は、標準入力で読み取ります。n\n
+
+ln.nosuchfile=ln: '%s' へのアクセスが失敗 : そのようなファイルまたはディクトリーがありません\n
+ln.usage=Usage: ln <目標> [<名前>]\n
+
+ls.list=%s \n低メモリーシステムの場合は、`list`を使用してみてください。\n
+
+lshw.address=アドレス
+lshw.capacity=容量
+lshw.class=クラス
+lshw.clock=時計
+lshw.description=説明
+lshw.product=プロダクト
+lshw.vendor=ベンダー
+lshw.width=幅
+
+man.nomanualentryfor=%s のマニュアルエントリーなし\n
+man.usage=使用: man <トピック>\nトピックはプログラムまたはライブラリの名前です。\n
+
+mkdir.alreadyexists=ファイルまたはディクトリーが既に存在しました
+mkdir.cannotcreate=mkdir: ディクトリー '%s' 作成失敗: %s \n
+mkdir.unknown=原因不明
+mkdir.usage=Usage: mkdir <ディクトリー名1> [<ディクトリー名2> [...]]\n
+
+mktmp.cctfodaidne=%s に一時的ファイルまたはディクトリーを作成できません、存在しません\n
+mktmp.invalidoption=無効オプション: %s \n
+mktmp.missingtools=mktmp ためのツールがありません
+mktmp.usage=使用: mktmp [オプション] [パス]\n$TMPDIRまたはパス（指定されているの場合）にランダムな名前で新しいファイルを作成します。\n  -d              ファイルの代わりにディレクトリを作成する\n  -v, --verbose   結果を標準出力で表示する、ttyがないの場合でも。\n  -q, --quiet     何も出力しません。(verbose オーバーライト)\n      --help      このヘルプを出力そして終了
+
+mount.failedtomount=マウント失敗: %s \n
+mount.info=%-8s on %-10s %s %s\n
+mount.missingarg=パラメーターがありません\n
+mount.usage=使用: mount [オプション] [デバイス] [パス]")\n  パラメーターがありませんの場合は、すべてのマウントポイントを表示します。\n  <オプション> 複数のオプションを一緒に使用できることをご注意してください\n  -r, --ro    読み取り専用でファイルシステムをマウントする\n      --bind  フォルダーをフォルダーにバインドします。\n  <パラメーター>\n  デバイス      以下のいずれかでファイルシステムデバイスを指定できます:\n              a. ラベル\n              b. アドレス (省略可能)\n              c. フォルダーパス (--bind が必要)\n  パス        マウント目標フォルダーのパス\n\nもっと情報には、`man mount`を見てください。\n
+mount.wrongnumberofarg=パラメーター数量エラー: %s \n
+
+mv.usage=使用: mv [オプション] <何処から> <目標>\n  -f         確認しなくてオーバーライトする\n  -i         オーバーライトの前に確認が必要\n             -fが競合\n  -v         詳細\n  -n         既に存在しますのファイルをオーバーライトしない\n  --skip=P   lua regex Pをマッチするパスをスキップする\n  -h, --help このヘルプを出力そして終了\n
+
+pastebin.downloading=pastebin.com からダウンロードしています。 
+pastebin.failedloadingconfig=コンフィグロード失敗: %s
+pastebin.rpgtda="pastebin get %s" を使うと何処でもダウンロードできます。
+pastebin.uploadedas=%s としてアップロードしました \n
+pastebin.usage=使用: pastebin put [-f] <ファイル>\npastebin get [-f] <id> <ファイル>\npastebin run [-f] <id> [<パラメーター...>]\n -f: ファイルを強制的に上書きする。\n -k: 行末をそのままにしておく (それ以外の場合は、\nWindowsの行末をUnixの行末に変換します)。
+
+primary.help=アドレスは省略場合有でご注意ください。\n
+primary.nocomponentwiththisaddress=このアドレスのコンポーネントがありません\n
+primary.nocomponentwiththistype=このタイプのコンポーネントがありません\n
+primary.usage=使用: primary <タイプ> [<アドレス>]\n
+
+pwd.error=ディレクトリ取得中にエラー発生: %s
+
+rc.alreadyenabled=サービスが既に有効にました。
+rc.commandnotfound=コマンド '%s' はデーモン '%s' に見つかりません
+rc.commandsforservice=サービスのためのコマンド %s \n
+rc.failedtoload=%s ロード失敗: %s
+rc.failedtostart=%s 起動失敗: %s
+rc.rcfailedtostart=rc 起動失敗: %s
+
+redstone.bundledredstonenotavailable=バンドルされたレッドストーン利用不可\n
+redstone.freq=周波数: %s \n
+redstone.in=入力: %s \n
+redstone.invalidcolor=無効のカラー\n
+redstone.invalidfreq=無効の周波数\n
+redstone.invalidside=無効の側\n
+redstone.out=出力: %s \n
+redstone.usage=使用:\n  redstone <側> [<値>]\n
+redstone.usage2=  redstone -b <側> <カラー> [<値>]\n
+redstone.usage3=  redstone -w [<値>]\n  redstone -f [<周波数>]\n
+redstone.wirelessredstonenotavailable=ワイヤレス レッドストーンが利用不可\n
+
+resolution.invalidwidthorheight=幅または高さが無効です\n
+resolution.usage=使用: resolution [<幅> <高さ>]
+
+rm.cannotremove=rm: `%s'を削除できません : 
+rm.commandline=\n\n  -f          存在しないファイルと引数を無視し、プロンプトを表示しません\n  -r          ディレクトリとその内容を再帰的に削除する\n  -v          進行中の操作を表示する。\n      --help  このヘルプを出力そして終了\n\n`man rm`でもっと情報を入手できます。
+rm.descendintodirectory=rm: ディレクトリ `%s' に降りますか？ 
+rm.directorynotempty=ディクトリーが空ではありません\n
+rm.failedtoberemoved=: 削除できません\n
+rm.isadirectory='%s' はディクトリーです
+rm.removearguments=rm: パラメーター %i を削除しますか？ 
+rm.removedirectory=rm: ディクトリー `%s' を削除しますか？ 
+rm.removeregularfile=rm: 通常ファイル `%s' を削除しますか？ 
+rm.removesymboliclink=rm: シンボリックリンク `%s' を削除しますか？
+rm.usage=使用: rm [オプション] <ファイル1> [<ファイル2> [...]]
+
+rmdir.directorynotempty=rmdir: %s を削除できません: ディクトリーが空ではありません\n
+rmdir.invaild=rmdir: ディクトリー . を削除できません: 無効なパラメーターです\n
+rmdir.missingoperand=rmdir: 操作数がありません\n
+rmdir.notadirectory=rmdir: %s を削除できません: ディクトリーではありません\n
+rmdir.pathdoesnotexist=rmdir: %s を削除できません: パスが存在しません\n
+rmdir.removeingdirectory=rmdir: ディクトリー %s を削除しています
+rmdir.usage=使用: rmdir [オプション]... ディクトリー...\nディクトリーが空の場合は、削除します。\n\n  -q, --ignore-fail-on-non-empty\n                  空でないディレクトリのみによるエラーを無視する\n  -p, --parents   ディクトリーとその空の祖先を削除する\n                  例えば 'rmdir -p a/b/c' は 'rmdir a/b/c a/b a' に相当します。\n  -v, --verbose   詳細情報を表示する。\n      --help      このヘルプを出力そして終了
+
+sleep.bug=解析パラメーターエラー: %s
+sleep.invalidoption=sleep: 無効オプション -- '%s'\n'sleep --help'を参照してください。
+sleep.usage=使用: sleep 時間[接尾]...\n時間 秒間に一時停止。  接尾は、秒（デフォルト）では「s」、分では「m」、時では「h」、日では「d」になります。  時間が整数の必要があるほとんどの実装とは異なり、\nここでは時間は任意の浮動小数点数\nの可能性があります。  2つ以上のパラメーターが指定したの場合、\nそれらの値の合計で指定された時間に一時停止します。
+
+source.couldnotsourcebecause=%s を source することができません: %s\n
+source.specifyasinglefiletosource=ファイルを指定して source する\n
+
+time.cpu=cpu %5dm%.3fs
+time.real=real%5dm%.3fs
+
+touch.cannottouch=touch: touch `%s' 失敗: %s\n
+touch.ignored=`%s' を無視しました: ディクトリーがサポートされていません\n
+touch.missingoperand=touch: 操作数がありません\n
+touch.usage=Usage: touch [オプション]... ファイル...\n各 ファイル の最後変更時刻を現在に更新します。\n-c が指定されていないの場合は、存在しないFILE引数は空で作成されます。\n\n  -c, --no-create    ファイルを作成しません\n      --help         このヘルプを出力そして終了
+
+tree.ilmbgt0=無効なレベル。レベルは0より大きくなければいけません
+tree.ivfowsbaaon=--color=WHEN オプションの値が無効です。WHENは必ずauto、alwaysまたはneverです。
+tree.usage=使用: tree [オプション]... [ファイル]...\n  -a, --all             . で始まるエントリを無視しない\n      --full-time       -lを使用すると、完全なISO形式で時間を表示します\n  -h, --human-readable  -lを使用すると、人間で読みできるの時間を表示します\n      --si              KiB、MiBではなくKB、MBを使用します\n      --level=LEVEL     最高にLEVELの深さに下降する\n      --color=WHEN      WHEN は、以下の一です:\n                        auto - ttyに書き込む場合にのみ出力を色付けする。\n                        always - いつも出力を色付けする。\n                        never - 出力を色付けしない (デフォルト: auto)\n  -l                    長いリストフォマードを使用する\n  -f                    ファイルのフルパスプレフィックスを表示する\n  -i                    インデント行を表示しない\n  -p                    ディレクトリに“/”インジケータを追加する\n  -Q, --quote           二重引用符でファイル名を引用します\n  -r, --reverse         並べ替え中の逆順\n  -S                    ファイルサイズで並べ替え\n  -t                    変更タイプで並べ替え、最新から\n  -X                    エントリ拡張子でアルファベット順に並べ替える\n  -C                    ファイルやディレクトリを数えない\n  -R                    他のファイルのようにルートディレクトリを数える\n      --help            このヘルプを出力そして終了
+
+umount.notamountpoint=マウントポイントではありません\n
+umount.nothingtoumounthere=ここでアンマウントするものはありません\n
+umount.usage=使用: umount [-a] <マウントポイント>\n -a  パスの代わりに、ラベルまたはアドレスを使用してデバイスを指定する。アドレスが省略されることはあるのでご注意してください。\n
+
+unalias.usage=使用: unalias <エイリアス名>...\n
+
+unset.usage=使用: unset <変数名1>[ <変数名2> [...]]\n
+
+useradd.usage=使用: useradd <ユーザー名>\n
+
+userdel.nosuchuser=そのようなユーザーがありません\n
+userdel.usage=使用: userdel <ユーザー名>\n
+
+wget.cnifpso=ファイル名を推測できません。指定してください。
+wget.missingtargetfilename=目標ファイル名がありません
+wget.usage=使用: wget [-fq] <url> [<ファイル>]\n -f: 既に存在しているのファイルを強制的に上書きする。\n -q: 沈黙モード - 状態メッセージなし。\n -Q: 高度沈黙モード - エラーメッセージなし。
+
+which.aliasedto=: の別名は 
+which.usage=使用: which <プログラム>\n
+
+yes.info=GNU coreutils yesの機能に触発されました\n
+yes.usage=使用: yes [ストリング]...\nまたは:    yes [-V/h]\n\nyesは、プロセスキルされるまで、指定しているパラメーターまたは“y”を出力します。\n\nオプション:\n	-V, --version	バージョンを出力そして終了\n	-h, --help  	このヘルプを出力そして終了\n
